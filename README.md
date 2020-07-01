@@ -9,13 +9,15 @@ Last name,
 NIC no,
 Role Type → eg: Driver, Assistant
 4. The following rest APIs should be exposed to the public.
-○ Basic CRUD operations for a given role.
-○ Retrieve a role from the NIC no.
-○ A list of roles should be able to retrieve by the organization and the role type.
+  ○ Basic CRUD operations for a given role.
+  ○ Retrieve a role from the NIC no.
+  ○ A list of roles should be able to retrieve by the organization and the role type.
 Note: This API should only expose a list of first name, last name, and NIC no of a given role.
 5. The microservice should be implemented in Sprint boot 2.0 or higher version in Java 8.
 Plus points
-● Expose the swagger documentation of the APIs.
-● Automated tests should be added to make sure the implementation is correct.
-● Need to add the created date and last modified date of a given document or table
+
+  ● Expose the swagger documentation of the APIs.
+  ● Automated tests should be added to make sure the implementation is correct.
+  ● Need to add the created date and last modified date of a given document or table
+
 entry.
