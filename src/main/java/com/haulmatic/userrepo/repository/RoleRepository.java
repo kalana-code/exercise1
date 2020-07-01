@@ -14,6 +14,9 @@ public interface RoleRepository extends MongoRepository<RoleModel, String> {
     void deleteByNIC(long NIC);
 
     Optional<RoleModel> findByNIC(long NIC);
-    List<RoleDto_Response> findAllByRoleAndOrganization(String Organization, RoleModel.ROLE Role);
+
+    @Query("{'Role' : ?0 , 'Organization' : ?1}")
+    List<RoleDto_Response> findAllByRoleAndOrganization(RoleModel.ROLE Role,String Organization);
+
 
 }
