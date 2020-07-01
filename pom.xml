@@ -11,8 +11,8 @@
 	<groupId>com.haulmatic</groupId>
 	<artifactId>userrepo</artifactId>
 	<version>0.0.1</version>
-	<name>ex1</name>
-	<description>excercise1</description>
+	<name>userRepoManagement</name>
+	<description>this apis used for manage role information</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -43,12 +43,6 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>de.flapdoodle.embed</groupId>
-			<artifactId>de.flapdoodle.embed.mongo</artifactId>
-			<scope>test</scope>
 		</dependency>
 
 		<dependency>
