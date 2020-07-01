@@ -1,4 +1,5 @@
-# exercise1
+# HaulmaticEx1
+![Java CI with Maven](https://github.com/kalana-code/HaulmaticEx1/workflows/Java%20CI%20with%20Maven/badge.svg)
 Company has a requirement to create a microservice to serve all the drivers and assistants as roles of a given organization and that implementation should fulfill the following criteria.
 1. Roles should be saved in a MongoDB collection called “role”.
 Note: If you are not familiar with MongoDB, then you can choose a relational database approach as well. In that case, those roles should be saved in a ROLE table.
