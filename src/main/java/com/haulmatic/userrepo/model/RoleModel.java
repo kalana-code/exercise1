@@ -45,7 +45,6 @@ public class RoleModel {
     private   Date CreatedDate;
 
     public RoleModel(String Organization, String FirstName, String LastName, int NIC , ROLE Role){
-
         this.Organization = Organization;
         this.FirstName = FirstName;
         this.LastName = LastName;

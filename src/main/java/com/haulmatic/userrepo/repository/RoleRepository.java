@@ -17,6 +17,4 @@ public interface RoleRepository extends MongoRepository<RoleModel, String> {
 
     @Query("{'Role' : ?0 , 'Organization' : ?1}")
     List<RoleDto_Response> findAllByRoleAndOrganization(RoleModel.ROLE Role,String Organization);
-
-
 }
